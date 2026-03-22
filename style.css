@@ -65,6 +65,7 @@ body::before {
   top: 0;
   z-index: 10;
   backdrop-filter: blur(16px);
+  width: 100%;
 }
 
 .brand,
@@ -127,8 +128,8 @@ body::before {
 }
 
 .hero-copy h1 {
-  font-size: clamp(3rem, 9vw, 6.4rem);
-  max-width: 11ch;
+  font-size: clamp(2.3rem, 5.6vw, 4.5rem);
+  max-width: 13ch;
 }
 
 .eyebrow,
@@ -276,7 +277,7 @@ body::before {
 }
 
 .panel-card {
-  padding: 1.4rem;
+  padding: 1.8rem;
 }
 
 .accent-card {
@@ -327,6 +328,7 @@ body::before {
 .section-heading {
   max-width: 720px;
   margin-bottom: 2rem;
+  padding: 0.75rem 1.75rem;
 }
 
 .section-heading h2,
@@ -358,11 +360,11 @@ body::before {
 
 .info-card,
 .project-card {
-  padding: 1.6rem;
+  padding: 2rem;
 }
 
 .metric-card {
-  padding: 1.4rem;
+  padding: 1.9rem;
   min-height: 180px;
   display: flex;
   flex-direction: column;
@@ -496,7 +498,7 @@ body::before {
 }
 
 .contact-card {
-  padding: 2rem;
+  padding: 2.4rem;
   background:
     linear-gradient(135deg, rgba(10, 23, 43, 0.95), rgba(12, 29, 56, 0.84)),
     radial-gradient(circle at top right, rgba(0, 120, 212, 0.14), transparent 40%);
@@ -542,6 +544,10 @@ body::before {
 
   .narrow {
     margin: 0;
+    padding: 0;
+  }
+
+  .section-heading {
     padding: 0;
   }
 
