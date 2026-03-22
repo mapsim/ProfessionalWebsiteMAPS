@@ -11,7 +11,7 @@
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
-      href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;700&family=Source+Sans+3:wght@400;600;700&display=swap"
+      href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@400;500;600;700&family=Sora:wght@400;600;700;800&display=swap"
       rel="stylesheet"
     />
     <link rel="stylesheet" href="style.css" />
@@ -32,19 +32,67 @@
         <section class="hero">
           <div class="hero-copy">
             <p class="eyebrow">Data Engineer | Databricks | Azure</p>
+            <div class="platform-badges" aria-label="Core platforms">
+              <span class="platform-badge azure-badge">
+                <svg viewBox="0 0 64 64" aria-hidden="true">
+                  <path d="M36 6 12 48h15l9-16 8 14h8L36 6Z" />
+                  <path d="M41 26 52 46H36l5-20Z" />
+                </svg>
+                Azure
+              </span>
+              <span class="platform-badge databricks-badge">
+                <svg viewBox="0 0 64 64" aria-hidden="true">
+                  <path d="M16 20 32 11l16 9-16 9-16-9Z" />
+                  <path d="M16 31l16 9 16-9" />
+                  <path d="M16 42l16 9 16-9" />
+                </svg>
+                Databricks
+              </span>
+            </div>
             <h1>
-              Designing modern data platforms for teams that need clarity,
-              scale, and trust.
+              Building modern Azure data platforms with a focus on Databricks,
+              migration, and trusted analytics.
             </h1>
             <p class="hero-text">
-              I help organizations build reliable analytics foundations with
-              Databricks and the Azure data stack, turning scattered raw data
-              into governed pipelines, usable datasets, and dependable reporting
-              layers.
+              I am Mauro Simoes, a data engineer focused on Azure and
+              Databricks delivery. My work centers on migrating legacy data
+              flows, building scalable pipelines, and creating analytics
+              foundations that are reliable in production.
             </p>
             <div class="hero-actions">
               <a class="button button-primary" href="#contact">Let's work together</a>
               <a class="button button-secondary" href="#impact">See my impact</a>
+            </div>
+            <div class="hero-icons" aria-label="Data engineering themes">
+              <span class="hero-icon-chip">
+                <svg viewBox="0 0 64 64" aria-hidden="true">
+                  <ellipse cx="32" cy="16" rx="18" ry="8" />
+                  <path d="M14 16v14c0 4 8 8 18 8s18-4 18-8V16" />
+                  <path d="M14 30v14c0 4 8 8 18 8s18-4 18-8V30" />
+                </svg>
+                Data pipelines
+              </span>
+              <span class="hero-icon-chip">
+                <svg viewBox="0 0 64 64" aria-hidden="true">
+                  <path d="M12 46h40" />
+                  <path d="M20 46V26" />
+                  <path d="M32 46V18" />
+                  <path d="M44 46V12" />
+                  <circle cx="20" cy="24" r="4" />
+                  <circle cx="32" cy="16" r="4" />
+                  <circle cx="44" cy="10" r="4" />
+                </svg>
+                Analytics
+              </span>
+              <span class="hero-icon-chip">
+                <svg viewBox="0 0 64 64" aria-hidden="true">
+                  <path d="M18 22h28" />
+                  <path d="M18 32h28" />
+                  <path d="M18 42h20" />
+                  <circle cx="46" cy="42" r="6" />
+                </svg>
+                Governance
+              </span>
             </div>
           </div>
 
@@ -61,9 +109,9 @@
             <div class="panel-card accent-card">
               <p class="panel-label">Professional Snapshot</p>
               <p>
-                Data engineer focused on practical architecture, maintainable
-                delivery, and cloud-first solutions that can move cleanly from
-                proof of concept into production.
+                Hands-on data engineer with experience across enterprise data
+                engineering, lakehouse delivery, and cloud modernization in
+                Microsoft Azure environments.
               </p>
             </div>
           </aside>
@@ -78,24 +126,23 @@
             <p class="eyebrow">Positioning</p>
             <h2>What I bring to modern data teams</h2>
             <p>
-              My work sits at the intersection of platform engineering,
-              analytics enablement, and cloud delivery. I focus on making data
-              ecosystems easier to trust, easier to scale, and easier for teams
-              to build on.
+              My experience is strongest where platform modernization meets
+              delivery: helping teams move from fragmented or legacy approaches
+              into more scalable Azure and Databricks-based data platforms.
             </p>
           </div>
           <div class="grid cards-3 metrics-grid">
             <article class="metric-card">
               <span class="metric-value">Databricks</span>
-              <p class="metric-copy">Lakehouse workflows, Delta patterns, notebook-to-production discipline.</p>
+              <p class="metric-copy">Lakehouse workflows, transformation pipelines, and production-minded engineering on Azure Databricks.</p>
             </article>
             <article class="metric-card">
               <span class="metric-value">Azure</span>
-              <p class="metric-copy">Storage, orchestration, cloud services integration, and enterprise delivery practices.</p>
+              <p class="metric-copy">End-to-end work across the Azure toolkit, from ingestion and orchestration to storage and analytics delivery.</p>
             </article>
             <article class="metric-card">
               <span class="metric-value">Engineering</span>
-              <p class="metric-copy">Pipelines, observability, data quality, and operationally sound architecture.</p>
+              <p class="metric-copy">Migration, pipeline design, reporting foundations, and stronger trust in operational data flows.</p>
             </article>
           </div>
         </section>
@@ -107,24 +154,48 @@
           </div>
           <div class="grid cards-3">
             <article class="info-card">
+              <div class="card-icon">
+                <svg viewBox="0 0 64 64" aria-hidden="true">
+                  <path d="M16 20 32 11l16 9-16 9-16-9Z" />
+                  <path d="M16 31l16 9 16-9" />
+                  <path d="M16 42l16 9 16-9" />
+                </svg>
+              </div>
               <h3>Databricks Engineering</h3>
               <p>
-                Batch and streaming pipelines, Delta Lake patterns, notebook to
-                production workflows, and performance-minded transformations.
+                Databricks-based engineering for scalable transformation
+                workflows, lakehouse-aligned delivery, and maintainable
+                production pipelines.
               </p>
             </article>
             <article class="info-card">
+              <div class="card-icon">
+                <svg viewBox="0 0 64 64" aria-hidden="true">
+                  <path d="M36 6 12 48h15l9-16 8 14h8L36 6Z" />
+                  <path d="M41 26 52 46H36l5-20Z" />
+                </svg>
+              </div>
               <h3>Azure Toolkit</h3>
               <p>
-                Azure Data Factory, Azure Storage, Synapse-adjacent workflows,
-                monitoring, identity, and cloud-native integration patterns.
+                Azure Data Factory, Azure Storage, Azure SQL, orchestration,
+                cloud integration, and the practical tooling needed for modern
+                enterprise data solutions.
               </p>
             </article>
             <article class="info-card">
+              <div class="card-icon">
+                <svg viewBox="0 0 64 64" aria-hidden="true">
+                  <ellipse cx="32" cy="16" rx="16" ry="7" />
+                  <path d="M16 16v12c0 4 7 7 16 7s16-3 16-7V16" />
+                  <path d="M16 28v12c0 4 7 7 16 7s16-3 16-7V28" />
+                  <path d="M46 18l6 6-6 6" />
+                </svg>
+              </div>
               <h3>Platform Reliability</h3>
               <p>
-                Data modeling, orchestration, observability, testing, and
-                governance practices that keep delivery stable as systems grow.
+                Migration support, reporting readiness, maintainable delivery,
+                and engineering practices that make analytics platforms more
+                stable as they grow.
               </p>
             </article>
           </div>
@@ -133,7 +204,7 @@
         <section class="section section-alt" id="toolkit">
           <div class="section-heading">
             <p class="eyebrow">Toolkit</p>
-            <h2>Technologies and delivery areas to highlight on your profile</h2>
+            <h2>Core technologies behind my data engineering work</h2>
           </div>
           <div class="tool-cloud">
             <span>Databricks</span>
@@ -142,7 +213,9 @@
             <span>PySpark</span>
             <span>SQL</span>
             <span>Python</span>
+            <span>Azure SQL</span>
             <span>Azure Storage</span>
+            <span>Data Migration</span>
             <span>Data Modeling</span>
             <span>ETL / ELT</span>
             <span>Data Quality</span>
@@ -154,39 +227,42 @@
         <section class="section" id="projects">
           <div class="section-heading">
             <p class="eyebrow">Selected Work</p>
-            <h2>Project narratives you can tailor to your real experience</h2>
+            <h2>Examples of the work I am best positioned to deliver</h2>
           </div>
           <div class="grid cards-2">
             <article class="project-card">
-              <span class="project-tag">Data Platform</span>
-              <h3>Lakehouse modernization</h3>
+              <span class="project-tag">Migration</span>
+              <h3>Legacy to cloud data modernization</h3>
               <p>
-                Designed a Databricks-based platform to consolidate fragmented
-                reporting pipelines into a scalable, governed analytics layer.
+                Helping organizations move legacy data processes into
+                Azure-native and Databricks-enabled delivery models with better
+                scalability, maintainability, and long-term reliability.
               </p>
             </article>
             <article class="project-card">
-              <span class="project-tag">Pipeline Delivery</span>
-              <h3>Azure ETL acceleration</h3>
+              <span class="project-tag">Consulting Delivery</span>
+              <h3>Enterprise pipeline engineering</h3>
               <p>
-                Built automated ingestion and transformation flows that reduced
-                manual handling and improved consistency across business datasets.
+                Built and supported ingestion and transformation workflows for
+                enterprise analytics environments, with a focus on reliability
+                and production usefulness.
               </p>
             </article>
             <article class="project-card">
-              <span class="project-tag">Data Quality</span>
-              <h3>Operational trust in reporting</h3>
+              <span class="project-tag">Analytics Enablement</span>
+              <h3>Reporting-ready data foundations</h3>
               <p>
-                Introduced validation checks, structured monitoring, and clear
-                ownership points to increase confidence in downstream reporting.
+                Helped shape data layers that support reporting, downstream
+                analytics, and clearer access to trusted business data.
               </p>
             </article>
             <article class="project-card">
-              <span class="project-tag">Architecture</span>
-              <h3>From prototype to production</h3>
+              <span class="project-tag">Azure Delivery</span>
+              <h3>Databricks and Azure implementation</h3>
               <p>
-                Turned exploratory data workflows into maintainable engineering
-                assets with repeatable deployment and supportable design choices.
+                Delivered practical Azure data solutions with an emphasis on
+                Databricks, orchestration, and strong engineering foundations
+                for future growth.
               </p>
             </article>
           </div>
@@ -198,39 +274,40 @@
               <p class="eyebrow">About</p>
               <h2>A practical engineering mindset for modern data teams</h2>
               <p>
-                I focus on building data systems that are usable, observable,
-                and ready for real business pressure. Databricks and Azure are
-                at the center of my toolkit because they support robust cloud
-                data platforms when paired with strong engineering habits and
-                thoughtful architecture.
+                I focus on building data systems that are usable, scalable, and
+                ready for real operational pressure. Azure and Databricks sit at
+                the center of my work because they support strong cloud delivery
+                when combined with thoughtful architecture and dependable
+                engineering practices.
               </p>
               <p>
-                This site is designed to present you as a hands-on engineer who
-                can partner with analysts, platform teams, and business
-                stakeholders while still caring about production quality.
+                My profile is strongest where hands-on implementation meets
+                modernization work: data migration, pipeline engineering,
+                reporting enablement, and delivery inside enterprise data
+                environments.
               </p>
             </div>
             <div class="timeline-card">
               <p class="panel-label">Career Highlights</p>
               <div class="timeline-item">
-                <span class="timeline-year">Now</span>
+                <span class="timeline-label">Current Focus</span>
                 <div>
-                  <h3>Data engineer focused on cloud delivery</h3>
-                  <p>Position yourself around Databricks implementation, Azure integration, and dependable analytics workflows.</p>
+                  <h3>Data engineer focused on Azure and Databricks</h3>
+                  <p>Focused on cloud platform delivery, production data flows, and trusted analytics foundations in Azure-based environments.</p>
                 </div>
               </div>
               <div class="timeline-item">
-                <span class="timeline-year">Recent</span>
+                <span class="timeline-label">Recent Work</span>
                 <div>
-                  <h3>Pipeline and platform ownership</h3>
-                  <p>Show evidence of building ingestion, transformation, quality, or reporting foundations across business domains.</p>
+                  <h3>Enterprise consulting environment</h3>
+                  <p>Experience shaped by enterprise delivery across cloud data engineering, modernization initiatives, and production-focused implementation.</p>
                 </div>
               </div>
               <div class="timeline-item">
-                <span class="timeline-year">Next</span>
+                <span class="timeline-label">Next Step</span>
                 <div>
-                  <h3>Senior growth trajectory</h3>
-                  <p>Signal readiness for larger architecture, platform standards, and cross-team delivery responsibility.</p>
+                  <h3>Senior platform growth</h3>
+                  <p>Strong positioning for larger Azure data platform, migration, and analytics engineering responsibilities.</p>
                 </div>
               </div>
             </div>
@@ -246,22 +323,23 @@
             <article class="info-card">
               <h3>Certifications</h3>
               <p>
-                Add Azure, Databricks, or data engineering certifications here
-                to strengthen credibility for recruiters and consulting leads.
+                Azure, Databricks, or Microsoft certifications can reinforce
+                credibility for recruiters, clients, and consulting leads.
               </p>
             </article>
             <article class="info-card">
               <h3>Ways of Working</h3>
               <p>
-                Highlight collaboration with analytics teams, documentation
-                habits, testing practices, and production support ownership.
+                Collaboration with delivery teams, business stakeholders, and
+                platform colleagues is an important part of how you present your
+                value on this site.
               </p>
             </article>
             <article class="info-card">
               <h3>Business Impact</h3>
               <p>
-                Replace generic language with measurable outcomes like reduced
-                latency, improved trust, faster reporting, or lower manual work.
+                Add measurable outcomes from migration, reporting, pipeline, or
+                platform work to make the page more persuasive.
               </p>
             </article>
           </div>
@@ -272,13 +350,12 @@
             <p class="eyebrow">Contact</p>
             <h2>Open to data engineering, platform, and analytics opportunities</h2>
             <p>
-              Replace the placeholder details below with your real contact
-              information, LinkedIn profile, GitHub, and CV link so this page is
-              ready for applications and outreach.
+              Connect with me on LinkedIn, and add email, GitHub, or a CV link
+              to expand this page into a fuller public portfolio.
             </p>
             <div class="contact-actions">
               <!-- <a class="button button-primary" href="mailto:your.email@example.com">your.email@example.com</a> -->
-              <a class="button button-secondary" href="https://www.linkedin.com/" target="_blank" rel="noreferrer">LinkedIn</a>
+              <a class="button button-secondary" href="https://www.linkedin.com/in/mapsimoes" target="_blank" rel="noreferrer">LinkedIn</a>
             </div>
           </div>
         </section>
